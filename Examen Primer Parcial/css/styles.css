@@ -1,0 +1,316 @@
+body {
+    background-color: #f0efe7;
+    font-family: 'Arial', sans-serif;
+    color: #4b9b61;
+  }
+
+.encabezado {
+    align-items: center;
+    text-align: center;
+}
+
+.logo img.logox{
+    padding-top: 10px;
+    width: 450px;
+    height: 270px;
+}
+
+div.encabezado h2.subtitle{
+    text-align: center;
+    font-size: 20px;
+}
+
+.encabezado img.imgp{
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.adress{
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.adress div.d1box, .adress div.d2box {
+    padding: 10px;
+    width: 45%;
+}
+
+.adress div.d1box{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.adress button.btn{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4b9b61;
+    border: 2px solid #4b9b61;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;  
+}
+
+.address div.d2box{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.adress button.btn{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4b9b61;
+    border: 2px solid #4b9b61;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;  
+}
+
+.adress button.btn:hover {
+    background-color:#2F6B43;
+    color: #ffff;
+}
+
+section.adIMG{
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section.adIMG div.d3box, section.adress div.d4box {
+    padding: 10px;
+    width: 45%;
+}
+
+section.adIMG div.d3box{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.adIMG div.d3box img.greenT{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    align-items: left;
+}
+
+section.adIMG div.d4box{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.adIMG img.redCircle{
+    width: 150px;
+    height: 150;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;  
+}
+
+section.drawboat{
+    box-sizing: content-box;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+section.drawboat img.ship{
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+
+section.drawboat div.textstory h2.title{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.drawboat div.textstory p.story{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8 px;
+}
+
+section.drawboat p.story{
+    font-size: 1.1  rem;
+    padding: 20px 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section.Partners{
+    box-sizing: content-box;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+section.Partners div.textpartners h2.title{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.Partners div.textpartners p.text{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8 px;
+    text-align: left;
+}
+
+section.pmuir{
+    box-sizing: content-box;
+    align-items: center;
+    text-align: center;
+}
+
+section.pmuir div.contentM h2.titleM{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.pmuir div.contentM p.textM{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8 px;
+    text-align: center;
+}
+
+section.pmuir div.btn button.btnemail{
+    background-color: #2F6B43;
+    color: #ffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Arial',sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.btnemail:hover {
+    background-color: #ffff;
+    opacity: 30%;
+}
+
+.HistoryIMG {
+    align-items: center;
+    text-align: center;
+}
+
+.HistoryIMG p.textH {
+    color: black;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8 px;
+    text-align: left;
+}
+
+.NYIMG {
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.NYIMG img.NY1, img.NY2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4b9b61;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.icon .icons {
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px; 
+}
+
+.icon .EmailList {
+    text-align: center;
+    color: black;
+}
+
+.Logos {
+    text-align: center;
+}
+
+.Logos .lvl1 {
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+    display: inline-block;
+}
+
+.Logos .lvl1 .img1 {
+    width: 350px;
+    height: 350px;
+}
+
+.Logos .lvl1 .img2 {
+    width: 350px;
+    height: 150px;
+}
+
+.Logos .lvl1 .img3 {
+    width: 350px;
+    height: 100px;
+}
+
+.Logos .lvl2 {
+    text-align: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+    display: inline-block;
+}
+
+.Logos .lvl2 .img4 {
+    width: 300px;
+    height: 150px;
+}
+
+.Logos .lvl2 .img5 {
+    width: 300px;
+    height: 150px;
+}
+
+.Logos .lvl2 .img6 {
+    width: 350px;
+    height: 300px;
+}
+
+
+footer {
+    color:black;
+    text-align: center;
+}
